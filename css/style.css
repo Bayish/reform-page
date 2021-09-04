@@ -1,0 +1,148 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+    margin: 0;
+}
+
+.container {
+    max-width: 998px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.clearfix::after {
+    content: "";
+    display:block;
+    clear: both;
+}
+
+.header {
+    background: url(../images/main-pic.png) no-repeat center;
+    background-size: contain;
+}
+
+.header-top {
+    font-size: 25px;
+    color: #424242;
+    text-align: center;
+    line-height: 41px;
+    padding-bottom: 26%;
+}
+
+.header-top span {
+    font-size: 28px;
+    color: #000;
+}
+.header-bottom{
+    margin-top: 50px;
+}
+.contacts {
+    float: right;
+    color: #03a9d6;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+    margin-top: 10px;
+}
+
+.navigator {
+    background-color: #03acd9;
+    padding: 10px 0;
+    background-size: 100%;
+    margin-top: 28px;
+}
+
+.navigator ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 4px;
+}
+
+.navigator li {
+    display: inline-block;
+    margin-right: 45px;
+}
+
+.navigator a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    border-left: #fff 2px solid;
+    margin-left: 5px;
+    padding: 10px 0 10px 10px;
+}
+.navigator .nav{
+    border: none;
+}
+
+.news {
+    width: 280px;
+    float: left;
+}
+.news h2 {
+    color: #008fbf;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.news p{
+    color: #000;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.news a {
+    color: #03a4d3;
+    font-size: 14px;
+}
+
+ .kitchens {
+    width: 690px;
+    float: right;
+ }
+
+.kitchens h2 {
+    color: #02a1cf;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.kitchens img {
+    float: left;
+}
+
+.kitchens h4 {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 200px;
+}
+
+.kitchens p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    padding-left: 200px;
+    margin-top: 5px;
+}
+.kitchens .wthpad p {
+    padding-left: 0;
+}
+
+.footer {
+    border-top: dashed;
+    border-color: #c6c6c6;
+    border-width: 2px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.footer p {
+    color:#595959
+}
+
+.footer span {
+    color: #000;
+    
+}
